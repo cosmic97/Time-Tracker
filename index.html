@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Tracker</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/mobile.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <nav>
+      <h1>Time Tracker</h1>
+    </nav>
+    <div class="main">
+      <div id="container">
+        <div class="form-wrap">
+          <h1>Easy Time Tracking Faster Billing</h1>
+          <p id="bullets">
+            60 time tracks forever free - no commitment and no credit card
+          </p>
+          <p id="bullets">Seamless integration with our invoices too!</p>
+          <form>
+            <div class="form-group">
+              <input type="email" name="email" id="email" value="Email" />
+            </div>
+            <div class="form-group">
+              <input
+                type="password"
+                name="password"
+                id="password"
+                value="password"
+              />
+            </div>
+            <button type="submit" class="btn">Sign Up</button>
+            <p class="bottom-text">
+              By clicking the Sign Up button, you agree to our
+              <a href="#">Terms & Conditions</a> and
+              <a href="#">Privacy Policy</a>
+            </p>
+          </form>
+          <img class="hero" src="/img/hero.e117fd74@2x.png" alt="" />
+          <img class="time" src="/img/ic-time-tracking@2x.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- Section  1 -->
+    <section id="what">
+      <h2>What Customers Are Saying</h2>
+      <img
+        class="sandy"
+        src="/img/sandy-millar-9bYTpXfiKNM-unsplash-min@2x.png"
+        alt=""
+      />
+
+      <div class="what-text">
+        <h4>Ryan M.</h4>
+        <br />
+        <p>
+          “I think it has the potential to profoundly impact a lot of small
+          businesses, startups, and tiny boutique businesses. I think the
+          greatest value is coming from the data showing me the invoice
+          information.. and also, the ability to have the projects, it really is
+          very comprehensive [went back on her word] as a dashboard.. it’s a
+          very powerful tool. For sure, surprisingly powerful. “
+        </p>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </section>
+    <!-- Section 2 -->
+    <!-- multistep form -->
+    <form id="msform">
+      <!-- progressbar -->
+      <ul id="progressbar">
+        <li class="active">Account Setup</li>
+        <li>Social Profiles</li>
+        <li>Personal Details</li>
+      </ul>
+      <!-- fieldsets -->
+      <fieldset>
+        <h2 class="fs-title">Create your account</h2>
+        <h3 class="fs-subtitle">This is step 1</h3>
+        <input type="text" name="email" placeholder="Email" />
+        <input type="password" name="pass" placeholder="Password" />
+        <input type="password" name="cpass" placeholder="Confirm Password" />
+        <input
+          type="button"
+          name="next"
+          class="next action-button"
+          value="Next"
+        />
+      </fieldset>
+      <fieldset>
+        <h2 class="fs-title">Social Profiles</h2>
+        <h3 class="fs-subtitle">Your presence on the social network</h3>
+        <input type="text" name="twitter" placeholder="Twitter" />
+        <input type="text" name="facebook" placeholder="Facebook" />
+        <input type="text" name="gplus" placeholder="Google Plus" />
+        <input
+          type="button"
+          name="previous"
+          class="previous action-button"
+          value="Previous"
+        />
+        <input
+          type="button"
+          name="next"
+          class="next action-button"
+          value="Next"
+        />
+      </fieldset>
+      <fieldset>
+        <h2 class="fs-title">Personal Details</h2>
+        <h3 class="fs-subtitle">We will never sell it</h3>
+        <input type="text" name="fname" placeholder="First Name" />
+        <input type="text" name="lname" placeholder="Last Name" />
+        <input type="text" name="phone" placeholder="Phone" />
+        <textarea name="address" placeholder="Address"></textarea>
+        <input
+          type="button"
+          name="previous"
+          class="previous action-button"
+          value="Previous"
+        />
+        <input
+          type="submit"
+          name="submit"
+          class="submit action-button"
+          value="Submit"
+        />
+      </fieldset>
+    </form>
+    <!-- Section 3 Tabs -->
+    <section id="tabs">
+      <div class="container">
+        <h6 class="section-title h1">Tabs</h6>
+        <div class="row">
+          <div class="col-xs-12 ">
+            <nav>
+              <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                <a
+                  class="nav-item nav-link active"
+                  id="nav-home-tab"
+                  data-toggle="tab"
+                  href="#nav-home"
+                  role="tab"
+                  aria-controls="nav-home"
+                  aria-selected="true"
+                  >Home</a
+                >
+                <a
+                  class="nav-item nav-link"
+                  id="nav-profile-tab"
+                  data-toggle="tab"
+                  href="#nav-profile"
+                  role="tab"
+                  aria-controls="nav-profile"
+                  aria-selected="false"
+                  >Profile</a
+                >
+                <a
+                  class="nav-item nav-link"
+                  id="nav-contact-tab"
+                  data-toggle="tab"
+                  href="#nav-contact"
+                  role="tab"
+                  aria-controls="nav-contact"
+                  aria-selected="false"
+                  >Contact</a
+                >
+                <a
+                  class="nav-item nav-link"
+                  id="nav-about-tab"
+                  data-toggle="tab"
+                  href="#nav-about"
+                  role="tab"
+                  aria-controls="nav-about"
+                  aria-selected="false"
+                  >About</a
+                >
+              </div>
+            </nav>
+            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="nav-home"
+                role="tabpanel"
+                aria-labelledby="nav-home-tab"
+              >
+                Et et consectetur ipsum labore excepteur est proident excepteur
+                ad velit occaecat qui minim occaecat veniam. Fugiat veniam
+                incididunt anim aliqua enim pariatur veniam sunt est aute sit
+                dolor anim. Velit non irure adipisicing aliqua ullamco irure
+                incididunt irure non esse consectetur nostrud minim non minim
+                occaecat. Amet duis do nisi duis veniam non est eiusmod tempor
+                incididunt tempor dolor ipsum in qui sit. Exercitation mollit
+                sit culpa nisi culpa non adipisicing reprehenderit do dolore.
+                Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+              </div>
+              <div
+                class="tab-pane fade"
+                id="nav-profile"
+                role="tabpanel"
+                aria-labelledby="nav-profile-tab"
+              >
+                Et et consectetur ipsum labore excepteur est proident excepteur
+                ad velit occaecat qui minim occaecat veniam. Fugiat veniam
+                incididunt anim aliqua enim pariatur veniam sunt est aute sit
+                dolor anim. Velit non irure adipisicing aliqua ullamco irure
+                incididunt irure non esse consectetur nostrud minim non minim
+                occaecat. Amet duis do nisi duis veniam non est eiusmod tempor
+                incididunt tempor dolor ipsum in qui sit. Exercitation mollit
+                sit culpa nisi culpa non adipisicing reprehenderit do dolore.
+                Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+              </div>
+              <div
+                class="tab-pane fade"
+                id="nav-contact"
+                role="tabpanel"
+                aria-labelledby="nav-contact-tab"
+              >
+                Et et consectetur ipsum labore excepteur est proident excepteur
+                ad velit occaecat qui minim occaecat veniam. Fugiat veniam
+                incididunt anim aliqua enim pariatur veniam sunt est aute sit
+                dolor anim. Velit non irure adipisicing aliqua ullamco irure
+                incididunt irure non esse consectetur nostrud minim non minim
+                occaecat. Amet duis do nisi duis veniam non est eiusmod tempor
+                incididunt tempor dolor ipsum in qui sit. Exercitation mollit
+                sit culpa nisi culpa non adipisicing reprehenderit do dolore.
+                Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+              </div>
+              <div
+                class="tab-pane fade"
+                id="nav-about"
+                role="tabpanel"
+                aria-labelledby="nav-about-tab"
+              >
+                Et et consectetur ipsum labore excepteur est proident excepteur
+                ad velit occaecat qui minim occaecat veniam. Fugiat veniam
+                incididunt anim aliqua enim pariatur veniam sunt est aute sit
+                dolor anim. Velit non irure adipisicing aliqua ullamco irure
+                incididunt irure non esse consectetur nostrud minim non minim
+                occaecat. Amet duis do nisi duis veniam non est eiusmod tempor
+                incididunt tempor dolor ipsum in qui sit. Exercitation mollit
+                sit culpa nisi culpa non adipisicing reprehenderit do dolore.
+                Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ./Tabs -->
+    <!-- Scripts -->
+    <script src="/main.js"></script>
+  </body>
+</html>

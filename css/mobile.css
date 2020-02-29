@@ -1,0 +1,12 @@
+@media (max-width: 500px) {
+  nav h1 {
+    font-size: large;
+    text-align: center;
+    background-color: #00b5e1;
+    padding: 1rem;
+  }
+
+  .form-wrap .hero {
+    display: none;
+  }
+}
