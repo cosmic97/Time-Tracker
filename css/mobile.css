@@ -13,12 +13,12 @@
   #container {
     left: 0;
     display: block;
-    height: 500px;
+    height: 550px;
     position: relative;
     overflow: hidden;
     background: url(/img/ic-time-tracking@2x.png) no-repeat center center/cover;
-    background-size: 300px;
-    background-position: left 20px bottom 30px;
+    background-size: 400px;
+    background-position: left 80px bottom -120px;
   }
 
   .form-wrap .hero {
@@ -29,14 +29,47 @@
     margin-bottom: 1px;
   }
 
-  /* .form-wrap .time {
-    height: 500px;
-    max-width: 400px;
+  #what {
+    height: 1000px;
+  }
+
+  #what h2 {
+    font-size: 25px;
+  }
+  #what .what-text {
+    height: 400px;
+    width: 200px;
+    margin: 1px;
+    /* padding: 5px; */
+    word-wrap: break-word;
     position: relative;
     bottom: 200px;
+    left: 100px;
+    color: black;
+  }
+
+  #what .what-text h4 {
+    position: relative;
+    top: 500px;
     left: 50px;
-    z-index: 1;
-  } */
+  }
+
+  #what img {
+    position: relative;
+    left: 80px;
+    bottom: -600px;
+  }
+  .dot {
+    position: relative;
+    top: 400px;
+    left: 50px;
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  /* Disabled for mobile */
 
   section .container {
     display: none;
@@ -48,5 +81,9 @@
 
   #msform {
     display: none;
+  }
+
+  #tabs {
+    background: #ffffff;
   }
 }

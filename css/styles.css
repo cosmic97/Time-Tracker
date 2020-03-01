@@ -103,12 +103,14 @@ nav {
 /* Section : what clients are saying */
 
 #what {
-  height: 350px;
+  height: 450px;
   background: #ffffff;
   z-index: 1;
 }
 
 #what h2 {
+  position: relative;
+  bottom: 60px;
   padding: 10px;
   text-align: center;
   font-weight: 100;
