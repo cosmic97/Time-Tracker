@@ -43,21 +43,21 @@
     /* padding: 5px; */
     word-wrap: break-word;
     position: relative;
-    bottom: 200px;
+    bottom: 300px;
     left: 100px;
     color: black;
   }
 
   #what .what-text h4 {
     position: relative;
-    top: 500px;
+    top: 450px;
     left: 50px;
   }
 
   #what img {
     position: relative;
     left: 80px;
-    bottom: -600px;
+    bottom: -430px;
   }
   .dot {
     position: relative;
