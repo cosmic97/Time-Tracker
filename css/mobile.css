@@ -1,12 +1,52 @@
 @media (max-width: 500px) {
+  html {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
   nav h1 {
     font-size: large;
     text-align: center;
-    background-color: #00b5e1;
     padding: 1rem;
+  }
+  #container {
+    left: 0;
+    display: block;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    background: url(/img/ic-time-tracking@2x.png) no-repeat center center/cover;
+    background-size: 300px;
+    background-position: left 20px bottom 30px;
   }
 
   .form-wrap .hero {
+    display: none;
+  }
+  .form-wrap h1 {
+    font-size: 24px;
+    margin-bottom: 1px;
+  }
+
+  /* .form-wrap .time {
+    height: 500px;
+    max-width: 400px;
+    position: relative;
+    bottom: 200px;
+    left: 50px;
+    z-index: 1;
+  } */
+
+  section .container {
+    display: none;
+  }
+
+  .msform {
+    display: none;
+  }
+
+  #msform {
     display: none;
   }
 }
